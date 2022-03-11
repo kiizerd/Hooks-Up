@@ -1,0 +1,9 @@
+.WeatherToggle {
+  position: absolute;
+  @apply shadow shadow-indigo-500/60 px-3 py-1 rounded-b text-sm
+  text-white hover:shadow-indigo-600/50 shadow-md transition duration-300;
+  text-shadow: 0px 0px 3px black;
+  right: 8rem;
+  background: rgb(81,163,221);
+  background: linear-gradient(151deg, rgba(81,163,221,0.84) 0%, rgba(126,85,255,0.7) 100%); 
+}

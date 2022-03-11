@@ -1,0 +1,41 @@
+.Card {
+  @apply p-0 my-4 rounded-lg shadow shadow-indigo-600/50 flex flex-col;
+  background-color: #5590ffb4;
+  background: rgb(81,163,221);
+  background: linear-gradient(151deg, rgba(81,163,221,0.84) 0%, rgba(126,85,255,0.7) 100%); 
+  /* border-top-left-radius: 2%; */
+}
+
+.Card-image {  
+  border-top-left-radius: 2%;
+  border-top-right-radius: 2%;
+  border-bottom: 2px solid rgba(10, 74, 148, 0.568);
+}
+
+.Card-text {
+  @apply m-2 p-1 text-white rounded-xl;
+  font-family: Tahoma, Geneva, Verdana, sans-serif;
+  text-shadow: 0px 0px 3px #342618, 1px 0px 1px #342618, 0px 1px 1px #342618;
+  /* text-shadow: 0px 0px 3px black; */
+
+  background: rgb(81,163,221);
+  background: linear-gradient(151deg, rgba(81,163,221,0.35) 0%, rgba(126,85,255,0.35) 100%); 
+}
+
+@media screen and (min-width: 640px) {
+  .Card {
+    @apply flex-row;
+  }
+
+  .Card-image {
+    max-height: 30vh;
+    border-bottom-left-radius: 2%;
+    border-top-right-radius: 0%;
+    border-right: 5px solid rgba(10, 74, 148, 0.568);
+    border-bottom: none;
+  }
+
+  .Card-text {
+    @apply text-lg my-auto py-4;
+  }
+}

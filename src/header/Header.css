@@ -1,0 +1,12 @@
+.Header {
+  background: rgb(141,79,223);
+  background: linear-gradient(192deg, rgba(141,79,223,0.5) 0%, rgba(0,217,255,0.5) 95%); 
+  border-bottom: 4px solid rgba(10, 74, 148, 0.568);
+  max-height: 15vh;
+  @apply mx-auto sm:w-3/4 rounded-b-lg shadow-lg;
+}
+
+.Header-logo {
+  max-height: 15vh;
+  @apply mx-auto;
+}

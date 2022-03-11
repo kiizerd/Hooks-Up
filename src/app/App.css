@@ -1,0 +1,14 @@
+.App {
+  height: 100%;
+  text-align: center;
+  background-color: #282c34;
+  background-image: url('../media/ocean-background3.png');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.App-link {
+  color: #61dafb;
+}
