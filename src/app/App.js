@@ -4,8 +4,6 @@ import Footer from '.././footer/Footer.js'
 import './App.css';
 
 const App = () => {
-  document.hideWeatherWidget();  
-
   return (
     <div className="App">      
       <Header />
