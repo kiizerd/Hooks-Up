@@ -2,20 +2,9 @@
   background: rgb(141,79,223);
   background: linear-gradient(12deg, rgba(141,79,223,0.5) 0%, rgba(0,217,255,0.5) 95%); 
   border-top: 4px solid rgba(10, 74, 148, 0.568);
-  /* max-height: 18vh; */
-  @apply mx-auto sm:w-3/4 rounded-t-lg shadow-lg flex justify-between;
 }
 
 .Footer-logo {
   max-height: 18vh;
-  @apply mr-4;
-}
-
-.ContactInfo-wrapper {
-  @apply w-1/2 m-1 text-white text-left p-2 py-4 flex flex-col space-y-3 justify-center;
-}
-
-.ContactInfo-field {
-  @apply w-full flex justify-between;
-  text-shadow: 0px 0px 3px #302418, 1px 1px #302418;
+  @apply mx-auto;
 }
