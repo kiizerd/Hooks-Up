@@ -13,7 +13,7 @@ class WeatherToggle extends React.Component {
   }
 
   toggle() {
-    let hidden = this.state.buttonText == 'Hide'
+    let hidden = this.state.buttonText === 'Hide'
     this.setState({
       buttonText: hidden ? 'Show' : 'Hide'
     });

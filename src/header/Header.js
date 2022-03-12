@@ -15,7 +15,7 @@ const Header = () => {
   return(
     <div className='Header'>
       <Logo />
-      <WeatherToggle hidden={!(document.weatherWidget.style.display == 'none')} />
+      <WeatherToggle hidden={!(document.weatherWidget.style.display === 'none')} />
     </div>
   );
 }

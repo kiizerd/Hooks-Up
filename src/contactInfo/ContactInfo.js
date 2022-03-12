@@ -5,7 +5,7 @@ const ContactItem = (props) => {
   const getItemHeading = (name) => {
     const heading = name.slice(0,1).toUpperCase() + name.slice(1, name.length);
 
-    if (name == 'insta') {
+    if (name === 'insta') {
       return heading.concat('gram');
     } else {
       return heading;
